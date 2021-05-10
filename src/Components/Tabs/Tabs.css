@@ -1,0 +1,31 @@
+.tabContainer {
+  width: 850px;
+  border-radius: 0.25rem;
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
+  /* box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1); */
+  /* background-color: #f5f5f5; */
+  /* background-color: #343a40; */
+}
+
+.vl {
+  border: 1px solid gray;
+  padding: 3px 0;
+  height: 25px;
+  /* margin-left: 1rem; */
+}
+
+.active-tab,
+.active-tab > a {
+  background-color: #428bca;
+  color: #fff !important;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.nav-tabs a {
+  cursor: pointer;
+}
+
+.nav-tabs {
+  border: none !important;
+}
