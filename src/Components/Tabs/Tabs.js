@@ -8,8 +8,7 @@ const Tabs = () => {
     const [viz, setViz] = useState(null);
     const [view, setView] = useState('Obesity');
     const [disabled, setDisabled] = useState('disabled');
-    const url =
-        'https://public.tableau.com/views/React-Tableau-js-api-animation-RegionalSampleWorkbook/Obesity';
+    const url = 'https://public.tableau.com/views/ReactTableaujsapi-RegionalSampleWorkbook/Obesity';
     const options = {
         hideTabs: true,
         hideToolbar: true,

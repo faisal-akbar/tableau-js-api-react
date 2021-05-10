@@ -10,8 +10,7 @@ const GetData = () => {
     const [rows, setRows] = useState(10);
     const [disabled, setDisabled] = useState('disabled');
 
-    const url =
-        'https://public.tableau.com/views/React-Tableau-js-api-animation-RegionalSampleWorkbook/Storms';
+    const url = 'https://public.tableau.com/views/ReactTableaujsapi-RegionalSampleWorkbook/Storms';
 
     const initViz = () => {
         const containerDiv = document.getElementById('container');

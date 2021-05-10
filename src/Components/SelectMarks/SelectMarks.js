@@ -49,8 +49,7 @@ const SelectMarks = () => {
         },
     ];
 
-    const url =
-        'https://public.tableau.com/views/React-Tableau-js-api-animation-RegionalSampleWorkbook/College';
+    const url = 'https://public.tableau.com/views/ReactTableaujsapi-RegionalSampleWorkbook/College';
 
     const initViz = () => {
         const containerDiv = document.getElementById('container');

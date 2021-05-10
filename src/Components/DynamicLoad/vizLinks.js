@@ -1,10 +1,10 @@
 const vizLinks = [
-    'https://public.tableau.com/views/React-Tableau-js-api-animation-RegionalSampleWorkbook/Flights',
-    'https://public.tableau.com/views/React-Tableau-js-api-animation-RegionalSampleWorkbook/Obesity',
-    'https://public.tableau.com/views/React-Tableau-js-api-animation-RegionalSampleWorkbook/College',
-    'https://public.tableau.com/views/React-Tableau-js-api-animation-RegionalSampleWorkbook/Stocks',
-    'https://public.tableau.com/views/React-Tableau-js-api-animation-RegionalSampleWorkbook/Storms',
-    'https://public.tableau.com/views/React-Tableau-js-api-animation-RegionalSampleWorkbook/Economy',
+    'https://public.tableau.com/views/ReactTableaujsapi-RegionalSampleWorkbook/Flights',
+    'https://public.tableau.com/views/ReactTableaujsapi-RegionalSampleWorkbook/Obesity',
+    'https://public.tableau.com/views/ReactTableaujsapi-RegionalSampleWorkbook/College',
+    'https://public.tableau.com/views/ReactTableaujsapi-RegionalSampleWorkbook/Stocks',
+    'https://public.tableau.com/views/ReactTableaujsapi-RegionalSampleWorkbook/Storms',
+    'https://public.tableau.com/views/ReactTableaujsapi-RegionalSampleWorkbook/Economy',
 ];
 
 export default vizLinks;

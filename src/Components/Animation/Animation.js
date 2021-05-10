@@ -11,7 +11,7 @@ const Animation = () => {
     const [disabled, setDisabled] = useState('disabled');
 
     const url =
-        'https://public.tableau.com/views/React-Tableau-js-api-Animation/React-Tableau-js-api-Animation';
+        'https://public.tableau.com/views/ReactTableaujsapi-Animation/React-Tableau-js-api-Animation';
 
     const initViz = () => {
         const yearArr = [...Array(2021 + 1).keys()].slice(1960);
@@ -56,7 +56,7 @@ const Animation = () => {
 
     return (
         <div className="d-flex flex-column align-items-center mt-4">
-            <h3>Every {timer} miliseconds</h3>
+            <h3>Every {timer} milliseconds</h3>
             <p>
                 <strong>Note:</strong> 1 second (1000ms - default speed) is about the fastest
                 animation speed

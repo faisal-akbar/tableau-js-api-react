@@ -11,8 +11,7 @@ const Events = () => {
     const [selectedParam, setSelectedParam] = useState(null);
     // const [disabled, setDisabled] = useState('disabled');
 
-    const url =
-        'https://public.tableau.com/views/React-Tableau-js-api-animation-RegionalSampleWorkbook/College';
+    const url = 'https://public.tableau.com/views/ReactTableaujsapi-RegionalSampleWorkbook/College';
 
     const initViz = () => {
         const containerDiv = document.getElementById('vizContainer');

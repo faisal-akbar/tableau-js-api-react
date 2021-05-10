@@ -6,8 +6,7 @@ const BasicEmbed = () => {
     document.title = 'Basic Embed';
     // Set up the arguments to pass into the Tableau Viz function
     const ref = useRef(null);
-    const url =
-        'https://public.tableau.com/views/React-Tableau-js-api-animation-RegionalSampleWorkbook/Obesity';
+    const url = 'https://public.tableau.com/views/ReactTableaujsapi-RegionalSampleWorkbook/Obesity';
 
     const options = {
         hideTabs: true,

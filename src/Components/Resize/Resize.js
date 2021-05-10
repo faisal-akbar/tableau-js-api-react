@@ -9,8 +9,7 @@ const Resize = () => {
     const [height, setHeight] = useState('600');
     const [disabled, setDisabled] = useState('disabled');
 
-    const url =
-        'https://public.tableau.com/views/React-Tableau-js-api-animation-RegionalSampleWorkbook/Stocks';
+    const url = 'https://public.tableau.com/views/ReactTableaujsapi-RegionalSampleWorkbook/Stocks';
 
     const initViz = () => {
         const containerDiv = document.getElementById('container');
