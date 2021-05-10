@@ -77,6 +77,7 @@ const Animation = () => {
                     Start
                 </button>
                 <button
+                    disabled={disabled}
                     type="button"
                     className="btn btn-secondary mr-2"
                     onClick={() => stopAnimate()}
